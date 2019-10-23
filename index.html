@@ -6,12 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <title>BitBuild</title>
   </head>
   <body>
-    <nav>
+    <nav class="nav">
       <div class="logo">
-        bitBuild
+        <p>
+          BITBUILD
+        </p>
       </div>
 
       <ul class="navLinks">
@@ -25,7 +49,7 @@
 
     <div class="module">
       <div class="module-inside">
-        <h1>We Write Code</h1>
+        <h1>We Write Code.</h1>
         <button>Request Info</button>
       </div>
     </div>
@@ -43,41 +67,61 @@
     <div class="double">
       <div class="doubleText">
         <div>
+          <h1>We'll be your coding stunt double.</h1>
 
+          <p>
+            Employ the BitBuild team and methodologies into your existing
+            workflow and experience dramatic improvements to your overall
+            efficiency. We’ll tackle your tough problems with a smile.
+          </p>
 
-        <h1>We'll be your coding stunt double</h1>
+          <p>
+            We’ll integrate with your existing team, adopting your processes as
+            our own, while providing over a decade of development expertise and
+            insight.
+          </p>
 
-        <p>
-          Employ the BitBuild team and methodologies into your existing workflow
-          and experience dramatic improvements to your overall efficiency. We’ll
-          tackle your tough problems with a smile.
-        </p>
-
-        <p>
-          We’ll integrate with your existing team, adopting your processes as
-          our own, while providing over a decade of development expertise and
-          insight.
-        </p>
-
-        <button>Start Now</button>
-    </div>
+          <button>START NOW</button>
+        </div>
       </div>
       <div class="doublePhoto"></div>
     </div>
 
-    <div class="howWeBuild">
+    <!-- <div class="howWeBuild">
       <h1>Watch: how we build you</h1>
       <div class="playVideo">play video</div>
+    </div> -->
+
+    <!-- <div class="techDisp">
+      <h2>PHP</h2>
+      <p href="">Get Development Help Now</p>
+    </div> -->
+
+    <div class="getStarted hidden">
+      <form action="">
+        <h2>Get Started Today!</h2>
+        <p>Enter your contact info and we'll get to you as soon as possible.</p>
+        <input type="text" placeholder="Your Name" />
+        <input type="text" placeholder="Your Email" />
+        <input type="number" placeholder="Your Phone Number" />
+
+        <button id='submit'>LET'S GET GOING</button>
+      </form>
+      <p id="exit">X</p>
     </div>
 
-    
-    <footer>
-      <div>Bitbuild</div>
-      <div>
-          <p>About</p>
-          <p>Contact</p>
+    <div class='footer'>
+        
+
+        <div class="footerHolder footer-inside">
+
+            <div>Bitbuild</div>
+            <div class='a'>
+                <p>About</p>
+                <p>Contact</p>
+            </div>
+        </div>
     </div>
-    </footer>
     <script src="./script.js"></script>
   </body>
 </html>

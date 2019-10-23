@@ -27,6 +27,11 @@ window.addEventListener('scroll', ()=>{
 
 let buttons=document.getElementsByTagName('button')
 
+for(let i=0;i<buttons.length;i++){
+    buttons[i].addEventListener('click',()=>{
+        document.getElementsByClassName('getStarted')[0].classList.remove('hidden')
+    })
+}
 
 
 

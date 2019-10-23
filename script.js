@@ -1,5 +1,6 @@
 
 
+
 //functions
 
 //nav comes back in about 1/4 down the page
@@ -22,7 +23,12 @@ window.addEventListener('scroll', ()=>{
     }  
 })
 
-//get started today form
+//get started today form- displays on button click. 
+
+let buttons=document.getElementsByTagName('button')
+
+
+
 
 //youtube video is linked
 

@@ -21,7 +21,7 @@ button:hover {
 }
 
 button:focus {
-  outline: none;
+  outline:0;
 }
 
 nav {
@@ -31,12 +31,19 @@ nav {
   background: transparent;
   position: absolute;
   top: 0;
-  padding: 1%;
+  /* padding: 1%; */
   width: 100%;
   z-index: 2;
   color: white;
   font-size: 18px;
   /* transition:background-color 1s ease-in-out; */
+}
+
+nav ul {
+    margin-top: 10px;
+}
+nav p {
+    margin-top: 10px;
 }
 
 .scrolling {
@@ -56,6 +63,7 @@ nav {
   flex: 1;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   list-style-type: none;
 }
 
@@ -152,7 +160,7 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .double {
@@ -225,12 +233,35 @@ nav {
     border: 1px solid #000;
     background-color: #fff;
     z-index: 10;
+    border-radius: 20px;
+}
+
+.getStarted h2 {
+    font-size: 48px;
+    color: rgba(0, 174, 255, 1);
+    margin-bottom: 5%;
+
+}
+
+.getStarted>p {
+    color:rgba(0, 0, 0, .5);
+    font-size: 24px;
+    font-weight: 800;
+    position: relative;
+    left:26.5%;
+    top:-68%;
+    z-index: 15;
+
+}
+
+.getStarted>p:hover{
+    cursor: pointer;
 }
 
 form input {
     flex:1;
 
-    padding:5%;
+    padding:2.5% 4%;
     width:100%;
     margin:5%;
     font-size: 24px;
@@ -244,6 +275,7 @@ form input {
 .getStarted button {
     background-color: #7f3f98;
   color: white;
+  padding:3% 6%;
   border-radius: 40px;
 }
 

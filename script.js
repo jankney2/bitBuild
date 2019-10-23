@@ -33,6 +33,11 @@ for(let i=0;i<buttons.length;i++){
     })
 }
 
+//exit strat
+
+document.getElementById('exit').addEventListener('click', ()=>{
+    document.getElementsByClassName('getStarted')[0].classList.add('hidden')
+})
 
 
 //youtube video is linked

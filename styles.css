@@ -13,6 +13,8 @@ button {
   padding: 2% 4%;
   font-size: 36px;
   transition: all .25s ease-in-out;
+  /* text-transform: uppercase; */
+  /* font-weight: 400; */
 }
 
 button:hover {
@@ -68,7 +70,7 @@ nav p {
 }
 
 .navLinks li:hover {
-  color: rgba(0, 174, 255, 1);
+  color: rgba(255, 255, 255, .5);
   transition: all 0.5s ease-in-out;
 }
 
@@ -134,6 +136,7 @@ nav p {
 .module-inside button {
   border: white 3px solid;
   border-radius: 40px;
+  font-size: 32px;
   color: white;
   background-color: transparent;
   text-transform: uppercase;
@@ -190,6 +193,8 @@ nav p {
   background-color: #7f3f98;
   color: white;
   border-radius: 40px;
+  font-size: 24px;
+  padding:2.5% 5%;
 }
 
 
@@ -281,12 +286,36 @@ form input {
 
 footer {
   background-color: #394c58;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* position: absolute; */
-  /* bottom: 0; */
-  /* width:100%; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  color: white;
+height: 20vh;
+}
+
+.footerHolder {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width:90%;
+   height:100%;
+   margin:auto;
+   font-size: 32px;
+}
+
+.a {
+    display: flex;
+    justify-content: space-evenly;
+}
+.a * {
+    margin:10%;
+}
+footer p {
+    margin:0;
+    transition: all .5s ease-in-out;
+
+}
+footer p:hover {
+    color:rgba(0, 174, 255, 1);
 }
 
 .hidden {

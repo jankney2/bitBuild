@@ -358,6 +358,17 @@ form input {
     height:10%;
     width: 100%;
     top:90%;
+    display:flex;
+    /* justify-content: space-evenly; */
+
+}
+
+.footer-inside p:first-child {
+    flex:2;
+}
+
+.footer-inside p:hover {
+    color:rgba(0, 174, 255, 1);
 }
 
 

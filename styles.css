@@ -284,12 +284,12 @@ form input {
   border-radius: 40px;
 }
 
-footer {
+.footer {
   background-color: #394c58;
   /* justify-content: space-between; */
   /* align-items: center; */
   color: white;
-height: 20vh;
+/* height: 20vh; */
 }
 
 .footerHolder {
@@ -309,14 +309,59 @@ height: 20vh;
 .a * {
     margin:10%;
 }
-footer p {
+
+
+
+.footer p {
     margin:0;
     transition: all .5s ease-in-out;
 
 }
-footer p:hover {
+
+
+
+.a p:hover {
     color:rgba(0, 174, 255, 1);
 }
+
+.footer {
+    height:80vh;
+    position: relative;
+}
+.footer::before {
+    content: '';
+    position:absolute;
+    background-image: url('https://images.unsplash.com/photo-1542744094-24638eff58bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80');
+    background-size: cover;
+
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background-position: center;
+}
+
+.footer::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background:black;
+    opacity: 0.25;
+  }
+
+.footer-inside {
+    position: relative;
+    background-color: #394c58;
+    height:10%;
+    width: 100%;
+    top:90%;
+}
+
+
+
 
 .hidden {
     display:none;

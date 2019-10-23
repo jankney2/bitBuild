@@ -39,6 +39,12 @@ document.getElementById('exit').addEventListener('click', ()=>{
     document.getElementsByClassName('getStarted')[0].classList.add('hidden')
 })
 
+//feedback on submit
+
+document.getElementById('submit').addEventListener('click', ()=>{
+    alert('Thanks for submitting your info! We will be in touch shortly.')
+    document.getElementsByClassName('getStarted')[0].classList.add('hidden')
+})
 
 //youtube video is linked
 
